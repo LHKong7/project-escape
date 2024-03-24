@@ -1,0 +1,23 @@
+.image-gallery-container {
+    width: 500px;
+    height: 500px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    position: relative;
+
+    .image-wrapper {
+        flex: 0 1 33.3%;
+    }
+}
+
+img {
+    width: 100px;
+    height: 100px;
+    height: auto;
+    vertical-align: middle;
+    border-radius: 5px;
+    pointer-events: none;
+    cursor: pointer;
+}

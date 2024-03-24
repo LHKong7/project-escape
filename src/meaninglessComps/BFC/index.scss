@@ -1,0 +1,25 @@
+.bfc-container {
+    // display: flex;
+    // flex-direction: column;
+    display: flow-root;
+    // overflow: auto;
+
+    .bfc__item {
+        width: 20px;
+        height: 20px;
+        margin: 10px;
+
+        &:nth-child(1) {
+            background-color: #00f;
+        }
+
+        &:nth-child(2) {
+            background-color: #f00;
+        }
+
+        &:nth-child(3) {
+            background-color: #0f0;
+        }
+    }
+}
+

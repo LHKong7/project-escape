@@ -1,0 +1,11 @@
+/* 行内块级水平垂直居中 */
+.parent {
+    line-height: 300px;
+    text-align: center;
+
+    .child {
+        display: inline-block;
+        vertical-align: middle;
+    }
+}
+
